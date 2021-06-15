@@ -46,7 +46,7 @@ Harald Ringvold, Isak Sunde Singh, Morten Kolstad
 ---
 <!-- _class: lead , invert -->
 
-# Nei sånn er det jo ikke :hug:
+# Nei sånn er det jo ikke 🤗
 
 <!--
 Men noen ting er ganske anderledes
@@ -389,17 +389,20 @@ getDiscount class =
 ---
 <!-- _class: lead , invert -->
 
-# Elm har ikke `null`/`nil`/`undefined` :mind_blown:
+# Elm har ikke `null`/`nil`/`undefined` 🤯
 
 ---
 
-## Null som et objekt
+## Null som et objekt/type
 
 ```elm
 type Maybe a
     = Just a
     | Nothing
 ```
+
+<!-- Ta oss tid til å snakke om typeparameteret -->
+
 ---
 
 ## Null som type
@@ -410,7 +413,7 @@ toInt : String -> Maybe Int
 
 ---
 
-## Null som type
+## Bruke Maybe
 
 ```elm
 visMellomnavn : Maybe String -> String
@@ -421,7 +424,7 @@ visMellomnavn kanskjenavn =
         Nothing ->
           "Har ingen mellom navn"
 ```
-
+<!-- Bedre eksempel? -->
 ---
 
 ## Løkker og iterasjon
@@ -444,7 +447,7 @@ int averageAge(List<Person> persons) {
 ```elm
 averageAge : List Person -> Int
 averageAge persons =
-    (sumAge persons 0) // (List.length persons)
+    (sumAge persons 0) // (List.length.age persons)
 
 sumAge : List Person -> Int -> Int
 sumAge persons summedAge =
@@ -459,11 +462,19 @@ sumAge persons summedAge =
 
 
 ```elm
+List.map
+List.filter
+List.all
+```
+---
+
+## Løkkeabstraksjoner
+
+```elm
 List.map     : (a -> b)    -> List a -> List b
 List.filter  : (a -> Bool) -> List a -> List a
 List.all     : (a -> Bool) -> List a -> Bool
 ```
-
 ---
 
 ## Løkkeabstraksjoner
@@ -488,6 +499,9 @@ averageAge persons =
 
 ---
 
+package.elm-lang.org
+
+
 ```elm
 -- Dette er en kommentar
 
@@ -495,8 +509,8 @@ person = {name = "Harald", age = 31}
 
 -- Sette sammen strenger:
 "Hei, mitt navn er " ++ person.name
--- Oppdatere records:
 
+-- Oppdatere records:
 { person | name = "Isak"
          , age = 25
 }
@@ -507,7 +521,13 @@ person = {name = "Harald", age = 31}
 
 # Ressurser
 
-package.elm-lang.org
+Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 - https://youtu.be/0if71HOyVjY
 
-Videoer av Richard Feldman
-FP in 40 minutes - Russ Olsen
+
+---
+
+#### Denne presentasjonen er sterkt inspirert av
+
+- Erik Wendel
+- Robin Heggelund Hansen
+- Russ Olsen
