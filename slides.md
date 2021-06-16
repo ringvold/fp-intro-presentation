@@ -63,42 +63,42 @@ Eksempler og illustrasjon tatt fra Russ Olsen.
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
-![bg contain](http://localhost:8080/images/pyramid1.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/pyramid1.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/pyramid2.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/pyramid2.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/pyramid3.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/pyramid3.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/pyramid4.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/pyramid4.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/pyramid5.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/pyramid5.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/blank.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master/images/blank.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/fp-base.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/fp-base.png)
 
 ---
 <!-- _header: Illustrasjon av Russ Olsen -->
 
-![bg contain](http://localhost:8080/images/fp-program.png)
+![bg contain](https://github.com/ringvold/fp-intro-presentation/raw/master//images/fp-program.png)
 
 ---
 <!-- _class: lead , invert -->
@@ -490,12 +490,27 @@ averageAge persons =
 
 ---
 
+
+
 ## Oppsummering
 
 * FP skiller data og logikk
 * FP gjør det lettere å abstrahere logikk
 * FP fokuserer på å lage ny data, ikke endre eksisterende data
 * Datastrukturen gir garantier
+
+---
+
+# Ressurser
+
+Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 - https://youtu.be/0if71HOyVjY
+
+---
+
+## Jobbe med oppgaver
+
+https://exercism.io/my/tracks/elm
+
 
 ---
 
@@ -522,7 +537,6 @@ person = {name = "Harald", age = 31}
 # Ressurser
 
 Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 - https://youtu.be/0if71HOyVjY
-
 
 ---
 
