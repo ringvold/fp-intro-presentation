@@ -516,6 +516,10 @@ https://exercism.io/my/tracks/elm
 
 package.elm-lang.org
 
+Denne presentasjonen: https://github.com/ringvold/fp-intro-presentation
+
+https://elm-lang.org/docs/syntax
+
 
 ```elm
 -- Dette er en kommentar
@@ -538,10 +542,12 @@ person = {name = "Harald", age = 31}
 
 Functional Programming in 40 Minutes • Russ Olsen • GOTO 2018 - https://youtu.be/0if71HOyVjY
 
+Youtube liste med anbefalte FP videoer: https://youtube.com/playlist?list=PLhGOzMmt2cTaMCc07CAkAC7yQLaWZKziC
+
 ---
 
 #### Denne presentasjonen er sterkt inspirert av
 
-- Erik Wendel
 - Robin Heggelund Hansen
 - Russ Olsen
+- Erik Wendel
